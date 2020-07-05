@@ -1,9 +1,10 @@
 package com.lambda.stream;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class EmpUtils {
+public class LambdaUtils {
 
     public static List<Employee> getEmployees(){
         List<Employee> empList = new LinkedList<>();
@@ -15,5 +16,23 @@ public class EmpUtils {
         empList.add(new Employee(6,"Ved","IT",4000));
 
         return empList;
+
+    }
+
+    public static List<String> getNames(){
+
+        List<String> memberNames = new LinkedList<>();
+        memberNames.add("Amitabh");
+        memberNames.add("Shekhar");
+        memberNames.add("Aman");
+        memberNames.add("Rahul");
+        memberNames.add("Shahrukh");
+        memberNames.add("Salman");
+        memberNames.add("Yana");
+        memberNames.add("Ravindra");
+
+
+        memberNames.add("Lokesh");
+        return memberNames;
     }
 }
